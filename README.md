@@ -1,6 +1,6 @@
 # Personal Portfolio | Bhuvan A R
 
-[![Vercel Deployment](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)]([https://bhuvanar.vercel.app])
+[![Vercel Deployment](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://bhuvanar.vercel.app)
 [![Tech Stack](https://img.shields.io/badge/Stack-React_|_Next.js_|_TypeScript-blue?style=for-the-badge)](https://github.com/Bhuvan-A-R/Portfolio)
 
 Welcome to my personal portfolio repository! This project showcases my journey as an AI & Machine Learning student, developer, and student leader. It serves as a central hub for my projects, technical skills, and professional experiences.
