@@ -19,9 +19,8 @@ I am **Bhuvan A R**, a student in the Department of Artificial Intelligence and 
 
 ## 🛠️ Tech Stack
 * **Frontend:** React.js, Next.js, Tailwind CSS
-* **Languages:** TypeScript, JavaScript, Python
+* **Languages:** TypeScript, JavaScript
 * **Tools:** Vite, AI Studio, Git & GitHub
-* **Data/ML:** Hadoop, Spark, NoSQL, MapReduce
 
 ## 📂 Project Highlights
 The portfolio features several key projects, including:
@@ -35,7 +34,6 @@ Follow these steps to get the project running on your local machine:
 
 ### Prerequisites
 * Node.js (Latest LTS recommended)
-* A Gemini API Key (if using AI-integrated features)
 
 ### Setup
 
