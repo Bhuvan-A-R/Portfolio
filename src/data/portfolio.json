@@ -1,0 +1,47 @@
+{
+  "projects": [
+    {
+      "title": "AI Task Manager",
+      "description": "A full-stack React app using AI to prioritize daily tasks automatically.",
+      "tech": ["React", "Node", "OpenAI API"],
+      "link": "#",
+      "image": "https://placehold.co/600x400/1e293b/ffffff?text=AI+Task+Manager"
+    },
+    {
+      "title": "Crypto Tracker",
+      "description": "Live dashboard for cryptocurrency prices and market caps with interactive charts.",
+      "tech": ["Vite", "Tailwind", "CoinGecko API"],
+      "link": "#",
+      "image": "https://placehold.co/600x400/1e293b/ffffff?text=Crypto+Tracker"
+    },
+    {
+      "title": "E-commerce UI",
+      "description": "Modern frontend for a shoe store featuring smooth cart interactions and filtering.",
+      "tech": ["HTML", "CSS", "JavaScript"],
+      "link": "#",
+      "image": "https://placehold.co/600x400/1e293b/ffffff?text=E-commerce+UI"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Unstop Campus Ambassador",
+      "org": "Unstop",
+      "image": "https://placehold.co/400x300/1e293b/ffffff?text=Unstop+Ambassador"
+    },
+    {
+      "title": "IEEE Member",
+      "org": "IEEE",
+      "image": "https://placehold.co/400x300/1e293b/ffffff?text=IEEE+Member"
+    },
+    {
+      "title": "ICC Member",
+      "org": "ICC",
+      "image": "https://placehold.co/400x300/1e293b/ffffff?text=ICC+Member"
+    },
+    {
+      "title": "GCC Core Member",
+      "org": "GCC",
+      "image": "https://placehold.co/400x300/1e293b/ffffff?text=GCC+Member"
+    }
+  ]
+}
