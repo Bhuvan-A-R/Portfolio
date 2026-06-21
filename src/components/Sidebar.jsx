@@ -45,7 +45,7 @@ const Sidebar = ({ theme, toggleTheme }) => {
         </nav>
 
         <div className="sidebar-footer">
-          <button onClick={toggleTheme} className="btn btn-outline" style={{ width: '100%', marginBottom: '1rem', display: 'flex', justifyContent: 'center' }}>
+          <button onClick={toggleTheme} className="btn btn-outline" style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.5rem' }}>
             {theme === 'light' ? <><FiMoon /> Dark Mode</> : <><FiSun /> Light Mode</>}
           </button>
           
@@ -57,7 +57,7 @@ const Sidebar = ({ theme, toggleTheme }) => {
               <FiLinkedin />
             </a>
           </div>
-          <a href="/resume.pdf" target="_blank" className="btn btn-outline resume-btn" style={{ marginTop: '1rem' }}>
+          <a href="/resume.pdf" target="_blank" className="btn btn-outline resume-btn">
             Resume
           </a>
         </div>

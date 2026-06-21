@@ -1,47 +1,41 @@
 {
   "projects": [
     {
-      "title": "AI Task Manager",
-      "description": "A full-stack React app using AI to prioritize daily tasks automatically.",
+      "title": "GAT Interact 2026 - Inter College",
+      "description": "As Technical Convenor for INTERACT 2026, I engineered a high-concurrency registration engine using Next.js and Node.js. This mission-critical platform served as the primary gateway for a flagship inter-college festival, managing real-time participant registration and automated data validation for over 1,000 users. By optimizing the frontend and backend for peak traffic, I eliminated administrative bottlenecks, ensuring a seamless, scalable, and highly reliable user experience throughout the event.",
       "tech": ["React", "Node", "OpenAI API"],
-      "link": "#",
-      "image": "https://placehold.co/600x400/1e293b/ffffff?text=AI+Task+Manager"
+      "link": "https://www.gatinteract.com/",
+      "image": "/projects/GATInteractInterCollege.png"
     },
     {
-      "title": "Crypto Tracker",
-      "description": "Live dashboard for cryptocurrency prices and market caps with interactive charts.",
-      "tech": ["Vite", "Tailwind", "CoinGecko API"],
-      "link": "#",
-      "image": "https://placehold.co/600x400/1e293b/ffffff?text=Crypto+Tracker"
-    },
-    {
-      "title": "E-commerce UI",
-      "description": "Modern frontend for a shoe store featuring smooth cart interactions and filtering.",
-      "tech": ["HTML", "CSS", "JavaScript"],
-      "link": "#",
-      "image": "https://placehold.co/600x400/1e293b/ffffff?text=E-commerce+UI"
+      "title": "GAT Interact 2026 - Inter Department",
+      "description": "As Technical Convenor for INTERACT 2026, I engineered a high-concurrency registration engine using Next.js and Node.js. This mission-critical platform served as the primary gateway for an interdepartmental event, managing real-time registrations and automated data validation for over 1,000 users. By optimizing the frontend and backend for peak traffic, I eliminated administrative bottlenecks, ensuring a seamless, scalable, and highly reliable experience for all participating departments.",
+      "tech": ["React", "Node", "OpenAI API"],
+      "link": "https://interdepartment.gatinteract.com/",
+      "image": "/projects/GATInteractInterDepartment.png"
     }
   ],
   "awards": [
     {
-      "title": "Unstop Campus Ambassador",
-      "org": "Unstop",
-      "image": "https://placehold.co/400x300/1e293b/ffffff?text=Unstop+Ambassador"
+      "title": "Blockchain and its Applications",
+      "org": "NPTEL ONLINE CERTIFICATION",
+      "image": "/certificates/NPTEL.png",
+      "link": "/NPTEL ONLINE CERTIFICATION",
+      "description": "I successfully earned the Elite Certification in Blockchain and its Applications from IIT Kharagpur, ranking in the top 5% of candidates nationwide. This 12-week intensive course covered advanced concepts of decentralized ledgers, consensus algorithms (Proof of Work, Proof of Stake), Smart Contracts, Solidity programming, and practical applications of blockchain technology in modern enterprise environments."
     },
     {
-      "title": "IEEE Member",
-      "org": "IEEE",
-      "image": "https://placehold.co/400x300/1e293b/ffffff?text=IEEE+Member"
+      "title": "Registration Domain Co-Convener",
+      "org": "24th VTU Youth Fest – INTERACT 2025 - GAT",
+      "image": "/certificates/VTUFest-Interact-2025.png",
+      "link": "/Registration Domain Co-Convener",
+      "description": "As the Registration Domain Co-Convener for INTERACT 2025 at Global Academy of Technology, I managed the entry and exit for 3,500+ participants and 7,000+ attendees. Beyond logistics, my team and I focused on creating a welcoming first impression for this award-winning festival. Leading this effort taught me that true leadership is about empowering others to excel. I am proud to have helped deliver a seamless, professional experience that contributed to the event's remarkable success."
     },
     {
-      "title": "ICC Member",
-      "org": "ICC",
-      "image": "https://placehold.co/400x300/1e293b/ffffff?text=ICC+Member"
-    },
-    {
-      "title": "GCC Core Member",
-      "org": "GCC",
-      "image": "https://placehold.co/400x300/1e293b/ffffff?text=GCC+Member"
+      "title": "Networking Basics",
+      "org": "Cisco Networking Academy",
+      "image": "/certificates/CiscoAcademy.png",
+      "link": "/Networking Basics",
+      "description": "Active member of the ICC club on campus, contributing to group collaborations, organizing campus tech-talks, and engaging in student community development activities."
     }
   ]
 }

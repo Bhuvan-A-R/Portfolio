@@ -369,3 +369,34 @@ section {
   border-color: var(--color-primary-light);
 }
 
+/* Clickable Bento Cards for Certifications */
+.bento-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.bento-card-link svg {
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.bento-card-link:hover svg {
+  color: var(--color-primary-dark);
+}
+
+.bento-card-link:hover .cert-img {
+  transform: scale(1.04);
+}
+
+/* Certifications Detail View Responsive Grid */
+.detail-grid-responsive {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+}
+
+@media (min-width: 992px) {
+  .detail-grid-responsive {
+    grid-template-columns: 1.2fr 1fr;
+  }
+}
+

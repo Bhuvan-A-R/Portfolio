@@ -13,7 +13,7 @@ const AboutBento = () => {
         <motion.div className="bento-card" initial={{opacity:0, scale:0.95}} whileInView={{opacity:1, scale:1}} viewport={{once:true}}>
           <h3 className="h3 mb-4">The Basics</h3>
           <ul className="flex flex-col gap-4 text-secondary">
-            <li className="flex justify-between border-b pb-2" style={{borderColor: 'rgba(0,0,0,0.05)'}}><strong>Age</strong> <span>20 years old</span></li>
+            <li className="flex justify-between border-b pb-2" style={{borderColor: 'rgba(0,0,0,0.05)'}}><strong>Age</strong> <span>21 years old</span></li>
             <li className="flex justify-between border-b pb-2" style={{borderColor: 'rgba(0,0,0,0.05)'}}><strong>Location</strong> <span>Bengaluru, Karnataka</span></li>
             <li className="flex justify-between pb-2"><strong>Languages</strong> <span>English, Kannada, Hindi</span></li>
           </ul>
@@ -28,14 +28,15 @@ const AboutBento = () => {
               <p className="text-sm text-secondary">Current Education</p>
             </div>
             <div>
-              <h4 className="font-bold">IEEE & ICC Member</h4>
-              <p className="text-sm text-secondary">Present</p>
+              <h4 className="font-bold">IEEE Member</h4>
+              <p className="text-sm text-secondary">Jan 2025 - Present</p>
             </div>
             <div>
               <h4 className="font-bold">GCC Core Member</h4>
-              <p className="text-sm text-secondary">Present</p>
+              <p className="text-sm text-secondary">Jan 2025 - Present</p>
             </div>
           </div>
+          
         </motion.div>
 
         {/* GitHub Graph */}
