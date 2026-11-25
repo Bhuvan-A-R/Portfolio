@@ -15,13 +15,6 @@
       "image": "/projects/GATInteractInterDepartment.png"
     },
     {
-      "title": "Secure AI-Powered EEG Speech Decoder",
-      "description": "Built an offline imagined-speech decoder for bilabial versus non-bilabial speech using 64-channel EEG from 15 subjects. Developed artefact rejection, common average reference, 5-band filtering, CSP, LinearSVC, EEG biometric authentication, AES-256-GCM encryption, and a Streamlit replay dashboard. Statistical validation improved balanced accuracy from 50.2% chance to 61.6% (p < 0.0001).",
-      "tech": ["Python", "MNE-Python", "scikit-learn", "PyTorch", "Streamlit", "AES-256-GCM"],
-      "link": "#",
-      "image": ""
-    },
-    {
       "title": "GPS-Enhanced V2V Communication",
       "description": "Built two decentralised vehicle nodes using Raspberry Pi 5 and NEO-6M GPS modules. Nodes parse NMEA data and exchange 5-field JSON packets over UDP, calculate distance and bearing with the Haversine formula, and provide a Flask/OpenStreetMap dashboard. A simulated PID follower settled from a 10 m to a 5 m gap in 68.6 seconds.",
       "tech": ["Raspberry Pi", "Python", "Flask", "UDP", "GPS", "OpenStreetMap"],
@@ -30,13 +23,6 @@
     }
   ],
   "awards": [
-    {
-      "title": "TCS TechBytes Volunteer",
-      "org": "TCS & BITES - Government of Karnataka",
-      "image": "/certificates/TCS-TechBytes-Volunteer.png",
-      "link": "/tcs-techbytes-volunteer",
-      "description": "Recognised as an active volunteer and contributor to the execution of the TCS TechBytes inter-college IT quiz finals held at Global Academy of Technology on May 5, 2026."
-    },
     {
       "title": "IAMPro'26 Internship Completion",
       "org": "IEEE Computer Society Bangalore Chapter",

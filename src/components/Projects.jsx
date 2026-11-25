@@ -46,7 +46,7 @@ const Projects = () => {
 
   return (
     <section id="projects">
-      <h2 className="section-title">Selected Projects</h2>
+      <h2 className="section-title">Projects</h2>
       
       <div className="grid-bento">
         {projects.map((project, idx) => {
