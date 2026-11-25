@@ -28,7 +28,7 @@ const Sidebar = ({ theme, toggleTheme }) => {
             <img src="/images/profile.png" alt="Bhuvan A R" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
           </div>
           <h2 className="sidebar-name">Bhuvan A R</h2>
-          <p className="sidebar-title">FullStack Developer</p>
+          <p className="sidebar-title">AI & ML Engineer</p>
         </div>
 
         <nav className="sidebar-nav">

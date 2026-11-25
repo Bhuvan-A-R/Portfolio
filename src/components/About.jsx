@@ -8,9 +8,9 @@ const About = () => {
 
   const personalInfo = [
     { icon: <FiUser />, label: "Bhuvan A R" },
-    { icon: <FiCalendar />, label: "21 years old" },
-    { icon: <FiMail />, label: "bhuvanamaravathi@gmail.com" },
-    { icon: <FiBook />, label: "B.E in AI & ML" },
+    { icon: <FiCalendar />, label: "AI & ML Graduate of 2027" },
+    { icon: <FiMail />, label: "bhuvan.ar0101@gmail.com" },
+    { icon: <FiBook />, label: "B.E. in AI & ML - CGPA 8.99/10" },
     { icon: <FiMapPin />, label: "Bengaluru, Karnataka" },
   ];
 
@@ -89,16 +89,16 @@ const About = () => {
                   <h3 className="h3">My Journey</h3>
                   <div className="timeline">
                     <div className="timeline-item">
-                      <h4 className="font-bold">Unstop Campus Ambassador</h4>
-                      <p className="text-sm text-secondary">Present</p>
+                      <h4 className="font-bold">Chair, IEEE CS Student Chapter</h4>
+                      <p className="text-sm text-secondary">GAT | 2026-Present</p>
                     </div>
                     <div className="timeline-item">
-                      <h4 className="font-bold">IEEE & ICC Member</h4>
-                      <p className="text-sm text-secondary">Present</p>
+                      <h4 className="font-bold">Research Intern, IEEE CS Bangalore Chapter</h4>
+                      <p className="text-sm text-secondary">Apr-Sep 2026</p>
                     </div>
                     <div className="timeline-item">
-                      <h4 className="font-bold">GCC Core Member</h4>
-                      <p className="text-sm text-secondary">Present</p>
+                      <h4 className="font-bold">GAT Student Council Convenor</h4>
+                      <p className="text-sm text-secondary">Campus Ambassador Program | Oct 2025-Present</p>
                     </div>
                   </div>
                 </motion.div>

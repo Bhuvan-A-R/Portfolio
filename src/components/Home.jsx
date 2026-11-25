@@ -28,11 +28,11 @@ const Home = () => {
                 <span style={{ marginRight: '8px' }}>A passionate</span>
                 <TypeAnimation
                   sequence={[
-                    'FullStack Developer',
+                    'Software Engineer',
                     2000,
-                    'AI & ML Enthusiast',
+                    'AI & ML Engineer',
                     2000,
-                    'Unstop Campus Ambassador',
+                    'Full-Stack Developer',
                     2000,
                     'Problem Solver',
                     2000

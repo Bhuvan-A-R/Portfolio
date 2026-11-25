@@ -5,6 +5,62 @@ import { FiArrowRight } from 'react-icons/fi';
 const Blog = () => {
   const posts = [
     {
+      title: 'Volunteering at TCS TechBytes 2026',
+      date: 'May 5, 2026',
+      readTime: 'Volunteering',
+      excerpt: 'Served as an active volunteer for the TCS TechBytes inter-college IT quiz finals at Global Academy of Technology, organised by TCS and the Board for IT Education Standards (BITES), Government of Karnataka.',
+      link: 'https://www.linkedin.com/in/bhuvan-a-r/',
+      image: '/certificates/TCS-TechBytes-Volunteer.png'
+    },
+    {
+      title: 'Completed the IAMPro’26 IEEE Internship',
+      date: 'Apr-Sep 2026',
+      readTime: 'IEEE CS Internship',
+      excerpt: 'Completed the six-month IEEE Computer Society Bangalore Chapter Internship and Mentorship Program. Built NeuroSecureNet, combining CNN and Transformer architectures with DP-SGD and INT8 quantisation for privacy-preserving, low-power imagined-speech decoding.',
+      link: 'https://www.linkedin.com/in/bhuvan-a-r/',
+      image: '/certificates/IAMPro26-Internship.png'
+    },
+    {
+      title: 'Teaching Cars to Talk',
+      date: '2026',
+      readTime: 'V2V Project',
+      excerpt: 'Together with Vinayaka S, built a low-cost GPS-enhanced vehicle-to-vehicle communication system using Raspberry Pi 5, NMEA GPS data, UDP networking, real-time location sharing, and proximity alerts.',
+      link: 'https://www.linkedin.com/pulse/teaching-cars-talk-building-low-cost-gps-enhanced-v2v-bhuvan-a-r-hdynf/',
+      image: '/projects/TeachingCarsToTalk.png'
+    },
+    {
+      title: 'NPTEL Elite: Cyber Security and Privacy',
+      date: 'Jul-Oct 2026',
+      readTime: 'Certification',
+      excerpt: 'Completed the 12-week Cyber Security and Privacy course from IIT Madras through NPTEL/SWAYAM with an Elite certificate and a 70% consolidated score. Gained practical perspective on threats, defences, privacy, and consistent exam preparation.',
+      link: 'https://www.linkedin.com/in/bhuvan-a-r/'
+    },
+    {
+      title: 'Neuro-Secure Hearable Research',
+      date: 'Apr-Sep 2026',
+      readTime: 'IEEE CS Research',
+      excerpt: 'Built NeuroSecureNet, a privacy-preserving CNN + Transformer system for imagined-speech decoding. Applied DP-SGD, tested model-inversion resistance, and quantised the model to INT8 for ARM Cortex-M7 and ESP32-S3 deployment.',
+      link: 'https://linkedin.com/in/bhuvan-a-r'
+    },
+    {
+      title: 'Chair, IEEE CS Student Chapter',
+      date: '2026-Present',
+      readTime: 'Leadership',
+      excerpt: 'Serving as Chair of the IEEE Computer Society Student Chapter at GAT under the Department of AIML. Leading Ravi Kumar (Vice Chair), Niyathi Nagesh (Secretary), Laasya S D (Treasurer), and Yashaswi Pm (Webmaster) to strengthen technical learning and collaboration.',
+      link: 'https://www.linkedin.com/company/ieeecsbc/',
+      images: [
+        '/activity/IEEE-CS-Office-Bearers.png',
+        '/activity/IEEE-CS-Chapter-Team.png'
+      ]
+    },
+    {
+      title: 'Campus Ambassador Program Convenor',
+      date: 'Oct 2025-Present',
+      readTime: 'Leadership',
+      excerpt: 'Serving as Convenor for the GAT Student Council Campus Ambassador Program within a 30-member council.',
+      link: 'https://linkedin.com/in/bhuvan-a-r'
+    },
+    {
       title: 'NPTEL Elite Certification in Blockchain',
       date: 'Recent',
       readTime: 'Certification',
@@ -48,20 +104,20 @@ const Blog = () => {
         {posts.map((post, idx) => (
           <motion.div 
             key={idx} 
-            className="bento-card flex flex-col justify-between"
+            className="bento-card activity-card flex flex-col"
             style={{ 
               backgroundColor: 'var(--color-bg-primary)', 
               border: '1px solid #93c5fd', /* Softer blue border */
               boxShadow: 'var(--shadow-sm)',
-              padding: '2.5rem'
+              padding: '1.5rem'
             }}
             initial={{opacity: 0, y: 20}}
             whileInView={{opacity: 1, y: 0}}
             viewport={{once: true}}
             transition={{delay: idx * 0.1}}
           >
-            <div>
-              <div className="flex flex-wrap gap-2 mb-4">
+            <div style={{ display: 'flex', flexDirection: 'column', flex: 1, minHeight: 0 }}>
+              <div className="activity-meta flex flex-wrap gap-2">
                 <span style={{ padding: '0.1rem 0.5rem', backgroundColor: 'var(--color-primary-light)', color: 'var(--color-primary-dark)', borderRadius: '1rem', fontSize: '0.7rem', fontWeight: '600', letterSpacing: '0.02em' }}>
                   {post.date}
                 </span>
@@ -69,6 +125,25 @@ const Blog = () => {
                   {post.readTime}
                 </span>
               </div>
+              {post.images && (
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))', gap: '0.5rem', marginBottom: '1rem' }}>
+                  {post.images.map((image) => (
+                    <img
+                      key={image}
+                      src={image}
+                      alt={`${post.title} activity`}
+                      style={{ width: '100%', height: '130px', objectFit: 'cover', borderRadius: '0.75rem' }}
+                    />
+                  ))}
+                </div>
+              )}
+              {post.image && !post.images && (
+                <img
+                  src={post.image}
+                  alt={`${post.title} activity`}
+                  style={{ width: '100%', height: '180px', flexShrink: 0, objectFit: 'contain', borderRadius: '0.75rem', marginBottom: '1rem', background: 'var(--color-bg-surface)' }}
+                />
+              )}
               <h3 className="h3 mb-4" style={{ fontSize: '1.25rem', lineHeight: '1.4' }}>{post.title}</h3>
               <p className="mb-8 text-secondary" style={{ lineHeight: '1.6' }}>{post.excerpt}</p>
             </div>

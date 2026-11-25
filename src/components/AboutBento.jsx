@@ -13,7 +13,7 @@ const AboutBento = () => {
         <motion.div className="bento-card" initial={{opacity:0, scale:0.95}} whileInView={{opacity:1, scale:1}} viewport={{once:true}}>
           <h3 className="h3 mb-4">The Basics</h3>
           <ul className="flex flex-col gap-4 text-secondary">
-            <li className="flex justify-between border-b pb-2" style={{borderColor: 'rgba(0,0,0,0.05)'}}><strong>Age</strong> <span>21 years old</span></li>
+            <li className="flex justify-between border-b pb-2" style={{borderColor: 'rgba(0,0,0,0.05)'}}><strong>Email</strong> <span>bhuvan.ar0101@gmail.com</span></li>
             <li className="flex justify-between border-b pb-2" style={{borderColor: 'rgba(0,0,0,0.05)'}}><strong>Location</strong> <span>Bengaluru, Karnataka</span></li>
             <li className="flex justify-between pb-2"><strong>Languages</strong> <span>English, Kannada, Hindi</span></li>
           </ul>
@@ -24,16 +24,16 @@ const AboutBento = () => {
           <h3 className="h3 mb-4">Journey</h3>
           <div className="flex flex-col gap-4">
             <div>
-              <h4 className="font-bold text-primary">B.E in AI & ML</h4>
-              <p className="text-sm text-secondary">Current Education</p>
+              <h4 className="font-bold text-primary">B.E. in AI & ML - CGPA 8.99/10</h4>
+              <p className="text-sm text-secondary">Global Academy of Technology | 2023-2027</p>
             </div>
             <div>
-              <h4 className="font-bold">IEEE Member</h4>
-              <p className="text-sm text-secondary">Jan 2025 - Present</p>
+              <h4 className="font-bold">IEEE CS Bangalore Chapter</h4>
+              <p className="text-sm text-secondary">Research Intern | Apr-Sep 2026</p>
             </div>
             <div>
-              <h4 className="font-bold">GCC Core Member</h4>
-              <p className="text-sm text-secondary">Jan 2025 - Present</p>
+              <h4 className="font-bold">Chair, IEEE CS Student Chapter</h4>
+              <p className="text-sm text-secondary">GAT | 2026-Present</p>
             </div>
           </div>
           

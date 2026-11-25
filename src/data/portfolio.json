@@ -2,40 +2,61 @@
   "projects": [
     {
       "title": "GAT Interact 2026 - Inter College",
-      "description": "As Technical Convenor for INTERACT 2026, I engineered a high-concurrency registration engine using Next.js and Node.js. This mission-critical platform served as the primary gateway for a flagship inter-college festival, managing real-time participant registration and automated data validation for over 1,000 users. By optimizing the frontend and backend for peak traffic, I eliminated administrative bottlenecks, ensuring a seamless, scalable, and highly reliable user experience throughout the event.",
-      "tech": ["React", "Node", "OpenAI API"],
+      "description": "Built a national inter-college registration portal with a team of three for 5,000+ external participants. Implemented document verification, payment tracking, JWT and OTP authentication, and automated coordinator workflows. Used backend optimisation and Redis caching to support simultaneous registrations across 100+ events without downtime.",
+      "tech": ["Next.js", "TypeScript", "PostgreSQL", "Redis", "JWT"],
       "link": "https://www.gatinteract.com/",
       "image": "/projects/GATInteractInterCollege.png"
     },
     {
       "title": "GAT Interact 2026 - Inter Department",
-      "description": "As Technical Convenor for INTERACT 2026, I engineered a high-concurrency registration engine using Next.js and Node.js. This mission-critical platform served as the primary gateway for an interdepartmental event, managing real-time registrations and automated data validation for over 1,000 users. By optimizing the frontend and backend for peak traffic, I eliminated administrative bottlenecks, ensuring a seamless, scalable, and highly reliable experience for all participating departments.",
-      "tech": ["React", "Node", "OpenAI API"],
+      "description": "Built PRAGNYA for 1,000+ GAT students across 64+ events in 10 domains. Delivered real-time leaderboards, registration workflows, JWT and OTP authentication, and reliable event operations as part of a three-person team.",
+      "tech": ["Next.js", "TypeScript", "PostgreSQL", "Redis", "Real-time Leaderboards"],
       "link": "https://interdepartment.gatinteract.com/",
       "image": "/projects/GATInteractInterDepartment.png"
+    },
+    {
+      "title": "Secure AI-Powered EEG Speech Decoder",
+      "description": "Built an offline imagined-speech decoder for bilabial versus non-bilabial speech using 64-channel EEG from 15 subjects. Developed artefact rejection, common average reference, 5-band filtering, CSP, LinearSVC, EEG biometric authentication, AES-256-GCM encryption, and a Streamlit replay dashboard. Statistical validation improved balanced accuracy from 50.2% chance to 61.6% (p < 0.0001).",
+      "tech": ["Python", "MNE-Python", "scikit-learn", "PyTorch", "Streamlit", "AES-256-GCM"],
+      "link": "#",
+      "image": ""
+    },
+    {
+      "title": "GPS-Enhanced V2V Communication",
+      "description": "Built two decentralised vehicle nodes using Raspberry Pi 5 and NEO-6M GPS modules. Nodes parse NMEA data and exchange 5-field JSON packets over UDP, calculate distance and bearing with the Haversine formula, and provide a Flask/OpenStreetMap dashboard. A simulated PID follower settled from a 10 m to a 5 m gap in 68.6 seconds.",
+      "tech": ["Raspberry Pi", "Python", "Flask", "UDP", "GPS", "OpenStreetMap"],
+      "link": "https://www.linkedin.com/pulse/teaching-cars-talk-building-low-cost-gps-enhanced-v2v-bhuvan-a-r-hdynf/",
+      "image": "/projects/TeachingCarsToTalk.png"
     }
   ],
   "awards": [
     {
+      "title": "TCS TechBytes Volunteer",
+      "org": "TCS & BITES - Government of Karnataka",
+      "image": "/certificates/TCS-TechBytes-Volunteer.png",
+      "link": "/tcs-techbytes-volunteer",
+      "description": "Recognised as an active volunteer and contributor to the execution of the TCS TechBytes inter-college IT quiz finals held at Global Academy of Technology on May 5, 2026."
+    },
+    {
+      "title": "IAMPro'26 Internship Completion",
+      "org": "IEEE Computer Society Bangalore Chapter",
+      "image": "/certificates/IAMPro26-Internship.png",
+      "link": "/iampro26-internship",
+      "description": "Successfully completed the six-month IEEE Computer Society Bangalore Chapter Internship and Mentorship Program (IAMPro'26) from April 1 to September 30, 2026. Worked on Neuro-Secure Hearable, a privacy-preserving deep learning framework for speech-imagery decoding from in-ear EEG."
+    },
+    {
+      "title": "Cyber Security and Privacy",
+      "org": "NPTEL Elite - IIT Madras",
+      "image": "/certificates/CyberSecurityAndPrivacy.png",
+      "link": "/cyber-security-and-privacy",
+      "description": "Completed the 12-week NPTEL Cyber Security and Privacy course offered by IIT Madras through SWAYAM, funded by the Ministry of Education. Earned an Elite certificate with a consolidated score of 70%, including 24.38/25 in online assignments and 45/75 in the proctored exam. Four credits were recommended."
+    },
+    {
       "title": "Blockchain and its Applications",
-      "org": "NPTEL ONLINE CERTIFICATION",
+      "org": "NPTEL Elite - IIT Kharagpur",
       "image": "/certificates/NPTEL.png",
-      "link": "/NPTEL ONLINE CERTIFICATION",
-      "description": "I successfully earned the Elite Certification in Blockchain and its Applications from IIT Kharagpur, ranking in the top 5% of candidates nationwide. This 12-week intensive course covered advanced concepts of decentralized ledgers, consensus algorithms (Proof of Work, Proof of Stake), Smart Contracts, Solidity programming, and practical applications of blockchain technology in modern enterprise environments."
-    },
-    {
-      "title": "Registration Domain Co-Convener",
-      "org": "24th VTU Youth Fest – INTERACT 2025 - GAT",
-      "image": "/certificates/VTUFest-Interact-2025.png",
-      "link": "/Registration Domain Co-Convener",
-      "description": "As the Registration Domain Co-Convener for INTERACT 2025 at Global Academy of Technology, I managed the entry and exit for 3,500+ participants and 7,000+ attendees. Beyond logistics, my team and I focused on creating a welcoming first impression for this award-winning festival. Leading this effort taught me that true leadership is about empowering others to excel. I am proud to have helped deliver a seamless, professional experience that contributed to the event's remarkable success."
-    },
-    {
-      "title": "Networking Basics",
-      "org": "Cisco Networking Academy",
-      "image": "/certificates/CiscoAcademy.png",
-      "link": "/Networking Basics",
-      "description": "Active member of the ICC club on campus, contributing to group collaborations, organizing campus tech-talks, and engaging in student community development activities."
+      "link": "/blockchain-and-its-applications",
+      "description": "Earned an NPTEL Elite certification with a score of 67%, ranking in the top 5% nationally."
     }
   ]
 }

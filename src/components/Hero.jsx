@@ -16,14 +16,14 @@ const Hero = () => {
           transition={{ duration: 0.6 }}
         >
           <div className="badge-wrapper">
-            <span className="badge">Unstop Campus Ambassador</span>
+            <span className="badge">Open to SDE-1 Roles</span>
           </div>
           
           <h1 className="h1">
             Hello, I'm <span className="highlight-blue">Bhuvan</span>
           </h1>
           <p className="subtitle">
-            A passionate FullStack Developer and AI & ML Enthusiast. Nice to meet you.
+            AI & ML engineering graduate with full-stack and applied ML experience.
           </p>
           
           <div className="hero-actions flex flex-col sm:flex-row gap-4">
@@ -56,8 +56,8 @@ const Hero = () => {
              {/* Dynamic gradient blob instead of image if no image available */}
              <div className="gradient-blob"></div>
              <div className="stats-badge glass">
-                <span className="text-primary font-bold text-2xl">4+</span>
-                <span className="text-sm font-medium">Finished Projects</span>
+                <span className="text-primary font-bold text-2xl">8.99</span>
+                <span className="text-sm font-medium">CGPA / 10</span>
              </div>
           </div>
         </motion.div>
